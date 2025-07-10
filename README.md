@@ -1,12 +1,56 @@
-# React + Vite
+# 🔐 Password Strength Analyzer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **React application** that helps users evaluate the strength of their passwords in real time. It provides visual and textual feedback based on criteria like length, character diversity, and common patterns.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ Real-time password strength analysis
+- ✅ Visual strength meter (Weak / Medium / Strong / Very Strong)
+- ✅ Instant feedback messages
+- ✅ Responsive and mobile-friendly design
+- ✅ Clean and simple UI using **Tailwind CSS**
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧱 Tech Stack
+
+| Layer     | Technology     |
+|-----------|----------------|
+| Frontend  | React.js       |
+| Styling   | Tailwind CSS   |
+| Logic     | Custom JS + Regex |
+
+---
+
+## 📸 Demo Preview
+
+> ![Password Strength Analyzer Demo](https://your-demo-image-link.png)
+
+> Try different combinations to see strength updates live.
+
+---
+
+## ⚙️ Getting Started
+
+### 📋 Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+---
+
+### 🔧 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/password-strength-analyzer.git
+
+# Navigate to the project directory
+cd password-strength-analyzer
+
+# Install dependencies
+npm install
+# or
+yarn install
